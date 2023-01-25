@@ -1,0 +1,157 @@
+body {
+    background-color: antiquewhite;
+}
+
+.header_bar {
+    flex: auto;
+    background-color: #B9F7EA;
+    padding: 10px;
+
+}
+
+.hedar_bar_text {
+    flex: auto;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    /* text-shadow: 2px 2px 5px red; */
+    /* text-shadow: 2px 2px 4px #000000; */
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+.header_boton {
+    background-color: rgb(178, 227, 244);
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Add_button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.Add_button:hover,
+.Add_button:active {
+    color: rgb(238, 225, 225);
+    background-color: rgb(3, 72, 75);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
+.body {
+    flex: auto;
+    height: 400px;
+    background-color: #EDD8F9;
+    padding: 5px;
+    color: blek;
+    border-style: double;
+}
+
+.body_img {
+    flex: auto;
+    border-radius: 30px;
+    border: 10px solid #fff;
+    outline-style: double;
+
+}
+
+.body_laft {
+    background: #CF95F3;
+    text-align: center;
+    height: 36s0px;
+    width: 20%;
+    margin: 6px;
+    padding: 10px;
+    float: left;
+    border-style: double;
+
+}
+
+.body_laft ul {
+    list-style-type: none;
+    margin: 20px;
+    list-style: square inside url("sqpurple.gif");
+
+}
+
+
+
+.body_abut:hover {
+    color: cadetblue;
+    background-color: #191d1c;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.body_contec:hover {
+    color: chartreuse;
+    background-color: #211d23;
+    font-size: 20px;
+}
+
+.body_email:active,
+.body_email:link {
+    color: darkblue;
+    background-color: #B9F7EA;
+}
+
+.body_conten {
+    flex: auto;
+    width: 60%;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* .body_right {
+    flex: auto;
+    background: #95d5f3;
+    height: 180px;
+    float: right;
+    border-style: double;
+    /* direction: rtl; */
+/* } */
+ol {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ol li:hover {
+    background: #023144;
+    color: rgb(4, 249, 61);
+    padding: 5px;
+    margin-left: 35px;
+}
+
+.botam_bar {
+    background-color: #B9F7EA;
+    padding: 10px;
+    text-align: center;
+    color: blek;
+}
+
+.botam_text {
+    flex: auto;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 6;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}

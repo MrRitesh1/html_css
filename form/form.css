@@ -1,0 +1,100 @@
+body {
+    /* background-image: url("./image/wp7685794-desktop-4k-wallpapers.jpg"); */
+    /* background-image: url("./image/wp7858438-abstract-for-pc-wallpapers.jpg"); */
+    background-color: beige;
+    /* background-size: 100% 100%; */
+
+}
+
+.body_hedar {
+    height: 30%;
+    padding: 3%;
+}
+
+.hedar_button {
+    background-color: cadetblue;
+    color: #fff;
+    margin: 1%;
+    height: 30px;
+    width: 80px;
+    border-radius: 20%;
+}
+
+.hedar_button:hover {
+    box-shadow: 0 8px 8px 0 rgba(215, 199, 199, 0.868), 0 8px 10px 0 rgba(215, 199, 199, 0.868);
+
+}
+
+.form_body {
+    border: 3px solid rgb(35, 27, 27);
+    background-color: rgb(174, 206, 240);
+    border-radius: 10px;
+    margin: 5%;
+    margin-left: 15%;
+    flex: auto;
+    font-size: 20px;
+    width: 70%;
+    box-shadow: 0 10px 8px 0 rgb(250, 247, 247), 0 10px 20px 0 rgba(250, 247, 247);
+
+}
+
+form {
+    /* background-color: rgb(107, 196, 196); */
+    border-top: 3px solid rgb(69, 14, 14);
+    border-top-left-radius: 80px;
+    border-bottom: 3px solid rgb(69, 14, 14);
+    border-bottom-right-radius: 80px;
+    margin: 5%;
+    padding: 5%;
+    /* box-shadow: 8px 8px 5px 8px #fff; */
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.20), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form_hedar {
+    flex: auto;
+    text-align: center;
+    color: rgb(221, 226, 226);
+    text-shadow: 1px 1px 2px rgb(3, 96, 14), 0 0 25px rgb(70, 158, 213), 0 0 5px rgb(239, 84, 84);
+
+}
+
+
+
+.text_bob {
+    margin-left: 10%;
+    height: 40px;
+    border-top-right-radius: 20px;
+    padding: 3px;
+    border-bottom-left-radius: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text_bob:hover {
+    color: rgb(12, 11, 11);
+    font-size: 25px;
+}
+
+.men_body {
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10%;
+}
+
+
+
+.form_button {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    color: aliceblue;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 30%;
+}
+
+.form_button:hover {
+    background-color: brown;
+}
