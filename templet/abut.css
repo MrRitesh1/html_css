@@ -1,0 +1,28 @@
+body {
+    /* background-image: url("./image/wp7685794-desktop-4k-wallpapers.jpg"); */
+    background-image: url("./image/wp7858438-abstract-for-pc-wallpapers.jpg");
+    /* background-image: url("./image/wp9446403-4k-amoled-desktop-wallpapers.jpg"); */
+    background-color: beige;
+    /* background-size: 100%; */
+
+}
+
+.body_hedar {
+    height: 30%;
+    padding: 3%;
+}
+
+.hedar_button {
+    background-color: cadetblue;
+    color: #fff;
+    margin: 1%;
+    margin-left: 8%;
+    height: 30px;
+    width: 80px;
+    border-radius: 20%;
+}
+
+.hedar_button:hover {
+    box-shadow: 0 8px 8px 0 rgba(215, 199, 199, 0.868), 0 8px 10px 0 rgba(215, 199, 199, 0.868);
+
+}

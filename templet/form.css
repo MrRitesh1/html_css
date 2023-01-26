@@ -1,8 +1,9 @@
 body {
     /* background-image: url("./image/wp7685794-desktop-4k-wallpapers.jpg"); */
-    /* background-image: url("./image/wp7858438-abstract-for-pc-wallpapers.jpg"); */
+    background-image: url("./image/wp7858438-abstract-for-pc-wallpapers.jpg");
+    /* background-image: url("./image/wp9446403-4k-amoled-desktop-wallpapers.jpg"); */
     background-color: beige;
-    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
 
 }
 
@@ -15,6 +16,7 @@ body {
     background-color: cadetblue;
     color: #fff;
     margin: 1%;
+    margin-left: 8%;
     height: 30px;
     width: 80px;
     border-radius: 20%;
