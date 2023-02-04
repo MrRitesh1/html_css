@@ -1,0 +1,98 @@
+/* * {
+    height: 100%;
+} */
+
+body {
+    height: 100%;
+}
+
+/* HEADAR */
+.headar {
+    flex: auto;
+    height: 20%;
+    /* background-color: cadetblue; */
+}
+
+.headar_top_nav {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(16, 16, 16);
+
+}
+
+.headar_top_icon {
+    margin: 5px;
+    float: right;
+    padding: 1px;
+
+}
+
+.headar_centar {
+    width: 100%;
+    height: 50px;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgb(169, 223, 243);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(3, 96, 14), 0 0 25px rgb(70, 158, 213), 0 0 5px rgb(239, 84, 84);
+
+}
+
+.headar_botam_nav {
+    width: 100%;
+    background-color: rgb(153, 206, 226);
+    padding: 5px;
+    margin: 0px;
+    height: 20px;
+}
+
+/* BODY */
+.body {
+    height: 60%;
+
+}
+
+.cart {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 350px;
+    white-space: nowrap;
+
+}
+
+.cart1,
+.cart2,
+.cart3,
+.cart4
+
+/* .cart5,
+.cart6,
+.cart7,
+.cart8 */
+    {
+    height: 300px;
+    width: 200px;
+    background-color: rgb(254, 254, 254);
+    margin: 10px;
+    border: 0.3px solid rgb(181, 171, 171);
+    border-radius: 30px;
+    box-shadow: 0 10px 8px 0 rgba(12, 12, 12, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.cart1 {}
+
+.cart2 {}
+
+.cart3 {}
+
+.cart4 {}
+
+/* FOOTER */
+.footer {
+    height: 20%;
+    /* height: 200px; */
+    background-color: black;
+    color: aliceblue;
+}

@@ -1,0 +1,30 @@
+.main_div {
+    flex: auto;
+    background-color: bisque;
+    height: 200px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+
+.div_left {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+.div_sentar {
+    background-color: rgb(43, 226, 76);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.div_right {
+    background-color: rgb(226, 67, 43);
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}

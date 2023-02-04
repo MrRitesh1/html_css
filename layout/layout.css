@@ -1,0 +1,51 @@
+* {
+    height: 100%;
+}
+
+body {
+
+    /* height: 100%; */
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.header {
+    flex: auto;
+    font-size: 0.5rem;
+    background-color: cadetblue;
+    height: 10%;
+    padding: 5px;
+}
+
+
+.section {
+    flex: auto;
+    height: 80%;
+    background-color: aquamarine;
+
+}
+
+.nav {
+    flex: auto;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(200, 194, 235);
+    float: left;
+}
+
+
+.article {
+    flex: auto;
+    height: 100%;
+    width: 70%;
+    background-color: rgb(217, 163, 205);
+    float: right;
+
+}
+
+.footer {
+    flex: auto;
+    height: 10%;
+    background-color: rgb(156, 236, 152);
+    padding: 10px;
+}
